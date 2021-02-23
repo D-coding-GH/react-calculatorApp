@@ -1,0 +1,79 @@
+@import url(
+"https://fonts.googleapis.com/css2?family=Orbitron&display=swap" );
+/* //.....witness the changes */
+
+body{
+  background: linear-gradient(to bottom, #ff9999 0%, #ff3300 100%);
+}
+
+
+.container1{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px ;
+  
+  
+}
+
+
+
+.container2{
+  padding-left:14px;
+  padding-right: 14px;
+  padding-top: 21px ;
+  height:70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(146, 155, 156);
+  border-radius: 4%;
+  
+}
+
+.display{
+  width:34vh;
+  background-color: black;
+  border: 3px solid rgb(241, 24, 8) ;
+  color: rgb(230, 15, 15);
+  padding: 10px;
+  text-align: right;
+  box-sizing: border-box;
+  height: 50vh;
+  font-family: 'Orbitron';
+  font-size: 35px;
+}
+
+.keyboard-container{
+  display: flex;
+  flex-wrap: wrap;
+  width:300px;
+  font-size: 2em;
+  padding-bottom: 17px;
+  
+  
+}
+
+ button {
+   width: 65px;
+   height: 71px;
+   margin-bottom: 25px;
+   margin-left: 5px;
+   margin-right: 5px;
+   border: none;
+   border-radius:20%
+   
+}
+
+.clearButton{
+  width:215px;
+  border-radius:15%
+  
+}
+
+.zeroButton{
+  width:140px
+}
+
+.operatorButton{
+  font-size: 20px;
+}
